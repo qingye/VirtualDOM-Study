@@ -1,0 +1,17 @@
+{
+  "name": "vdom-study",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm ./public/bundle.js && babel ./src/index.js --out-file ./public/bundle.js",
+    "clean": "rm ./public/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  }
+}
